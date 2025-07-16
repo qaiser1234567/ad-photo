@@ -32,7 +32,7 @@ def gen_image(en_prompt, api_key):
 with st.sidebar:
     if "api_key" not in st.session_state:
         st.session_state.api_key = ""
-    st.info("Get your API key from website:[ https://bria.ai/ ] and then use here.", icon='ℹ️')
+    st.info("Get your API key from website:bria ai and then use here.", icon='ℹ️')
     st.session_state.api_key = st.text_input("Enter your API key", type='password')
 
 # radio buttons
